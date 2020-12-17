@@ -1,9 +1,35 @@
 <template>
-  <div class="container">
-    <div>
-      <h3>
-        euro-forex home page
-      </h3>
+  <div>
+    <div class="pt-24">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+          <p class="uppercase tracking-loose w-full">Forex Brokers Trading</p>
+          <h1 class="my-4 text-5xl font-bold leading-tight">
+            Forex Brokers Trading
+          </h1>
+          <p class="leading-normal text-xl mb-8">
+            The forex market is the largest and most liquid financial market in the world,
+            where currencies are traded against each other in currency pairs by individuals,
+            known as retail traders, banks and large corporations.
+
+          </p>
+          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Subscribe
+          </button>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/5 py-6 text-center">
+          <img class="w-full md:w-4/5 z-50" src="/hero-banner.png" />
+        </div>
+      </div>
+    </div>
+    <div
+      style="height:fit-content; overflow:hidden; border: 1px solid #56667F; font-size: 12px; padding:1px; width: 100%;">
+      <div style="height:40px; width: 100%;">
+        <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;">
+        </iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -20,32 +46,13 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+/*.container {*/
+/*  margin: 0 auto;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  text-align: center;*/
+/*}*/
 
-.title {
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
