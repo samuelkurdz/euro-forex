@@ -1,44 +1,46 @@
 <template>
   <div>
-    <div class="pt-24">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <!--Left Col-->
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">Forex Brokers Trading</p>
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Forex Brokers Trading
-          </h1>
-          <p class="leading-normal text-xl mb-8">
-            The forex market is the largest and most liquid financial market in the world,
-            where currencies are traded against each other in currency pairs by individuals,
-            known as retail traders, banks and large corporations.
-
-          </p>
-          <button
-            class="inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-white uppercase transition bg-black rounded shadow ripple waves-light hover:shadow-lg focus:outline-none hover:bg-black"
-          >
-            Subscribe
-          </button>
-        </div>
-        <!--Right Col-->
-        <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="/hero-banner.png" />
-        </div>
-      </div>
+    <HeroSection />
+    <div class="container px-3 py-4 mx-auto flex flex-wrap flex-col justify-evenly md:flex-row items-center">
+      <Card v-for="(item, index) in cardData" :key="index" :image="item.image" :title="item.title" :text="item.text">
+      </Card>
     </div>
-    <div
-      style="height:fit-content; overflow:hidden; border: 1px solid #56667F; font-size: 12px; padding:1px; width: 100%;">
-      <div style="height:40px; width: 100%;">
-        <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;">
-        </iframe>
-      </div>
-    </div>
+    <FAQs />
   </div>
 </template>
 
 <script>
+import HeroSection from '~/components/Hero-Section';
+import FAQs from '~/components/FAQs';
+import Card from '~/components/Card';
 export default {
-  components: {}
+  components: {Card, FAQs, HeroSection},
+  data() {
+    return {
+      cardData: [
+        {
+          title: 'Our Team',
+          image: 'https://secure.365forexreviews.com/pics/1603000235.png',
+          text: 'We are a team of experts with over 10 years of trading experience. In this time, we\'ve reviewed over 200 brokers and have come across the good, the bad and the ugly.'
+        },
+        {
+          title: 'Reviews',
+          image: 'https://secure.365forexreviews.com/pics/1603000262.png',
+          text: 'All of our reviews focus on over 200 criteria points. This includes considering trading platforms, bonuses, account types, fees and more.'
+        },
+        {
+          title: 'Money and Time',
+          image: 'https://secure.365forexreviews.com/pics/1603000294.png',
+          text: 'We help you to save time, money and stress. Our experts spend several days carefully reviewing each broker we come across so that you don’t have to.'
+        },
+        {
+          title: 'Best Brokers',
+          image: 'https://secure.365forexreviews.com/pics/1603000262.png',
+          text: 'We help traders to not only find great brokers but to progress in their trading career.'
+        }
+      ]
+    };
+  }
 }
 </script>
 
@@ -47,14 +49,5 @@ export default {
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
-*/
-/*.container {*/
-/*  margin: 0 auto;*/
-/*  min-height: 100vh;*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  text-align: center;*/
-/*}*/
-
+ */
 </style>
