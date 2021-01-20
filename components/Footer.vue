@@ -1,5 +1,6 @@
 <template>
-  <footer class="footer bg-gray-800 relative pt-1 border-b-2 border-white">
+  <footer class="footer bg-gray-800 relative pt-1 border-white">
+<!--  <footer class="footer bg-gray-800 relative pt-1 border-b-2 border-white">-->
     <div class="container mx-auto px-6">
       <div class="sm:flex sm:mt-8">
         <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
