@@ -6,9 +6,10 @@
         <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
           <div class="flex flex-col">
             <span class="font-bold text-white uppercase mb-2">Footer header 1</span>
-            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">link 1</a></span>
-            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">link 1</a></span>
-            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">FAQs</a></span>
+            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">Terms and Conditions</a></span>
+            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">Privacy Policy</a></span>
+            <span class="my-2"><a href="#" class="text-white  text-md hover:text-gray-600">Contact Us</a></span>
           </div>
           <div class="flex flex-col">
             <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Quick Links</span>

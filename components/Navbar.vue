@@ -38,10 +38,10 @@
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
                 <ul class="dropdown-menu absolute right-0 text-gray-700 pt-8 hidden">
-                  <li class=""><NuxtLink  class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/FCA" tag="a">FCA Brokers</NuxtLink></li>
-                  <li class=""><NuxtLink class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/Cysec" tag="a">Cysec Brokers</NuxtLink></li>
-                  <li class=""><NuxtLink class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/ASIC" tag="a">ASIC Brokers</NuxtLink></li>
-                  <li class=""><NuxtLink class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/FSCA" tag="a">FSCA Brokers</NuxtLink></li>
+                  <li><NuxtLink  class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/FCA" tag="a">FCA Brokers</NuxtLink></li>
+                  <li><NuxtLink class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/Cysec" tag="a">Cysec Brokers</NuxtLink></li>
+                  <li><NuxtLink class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/ASIC" tag="a">ASIC Brokers</NuxtLink></li>
+                  <li><NuxtLink class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/regulated_brokers/FSCA" tag="a">FSCA Brokers</NuxtLink></li>
                 </ul>
               </a>
               <a href="#" class="relative dropdown-title text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex">
@@ -50,12 +50,12 @@
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
                 <ul class="dropdown-menu absolute right-0 text-gray-700 pt-8 hidden">
-                  <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Moneta Market Review</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Vantage FA Reviews</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Plus 500 Reviews</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Easy Market Reviews</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Pepperstone Reviews</a></li>
-                  <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Fp Market Reviews</a></li>
+                  <li><NuxtLink  class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" to="/brokers-review/fortrade" tag="a">Fortrade Review</NuxtLink></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Vantage FA Reviews</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Plus 500 Reviews</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Easy Market Reviews</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Pepperstone Reviews</a></li>
+                  <li><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Fp Market Reviews</a></li>
                 </ul>
               </a>
               <a href="#" class="relative dropdown-title text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex">
@@ -64,9 +64,9 @@
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
                 <ul class="dropdown-menu absolute right-0 text-gray-700 pt-8 hidden">
-                  <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Demo Account Brokers</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Hedging Account Brokers</a></li>
-                  <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Islamic Account Brokers</a></li>
+                  <li><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Demo Account Brokers</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Hedging Account Brokers</a></li>
+                  <li><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Islamic Account Brokers</a></li>
                 </ul>
               </a>
               <a href="#" class="relative dropdown-title text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex">
@@ -75,12 +75,12 @@
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
                 <ul class="dropdown-menu absolute right-0 text-gray-700 pt-8 hidden">
-                  <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Auto Trading Platforms</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Copy Trading Platforms</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">MT4 Platforms</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">MT5 Platforms</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Social Trading Platforms</a></li>
-                  <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Web Traders</a></li>
+                  <li><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Auto Trading Platforms</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Copy Trading Platforms</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">MT4 Platforms</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">MT5 Platforms</a></li>
+                  <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Social Trading Platforms</a></li>
+                  <li><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Web Traders</a></li>
                 </ul>
               </a>
               <a href="#" class="relative dropdown-title text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium inline-flex">
