@@ -2,8 +2,8 @@
   <div>
     <HeroSection />
     <div class="container px-3 py-4 mx-auto flex flex-wrap flex-col justify-evenly md:flex-row items-center">
-      <Card v-for="(item, index) in cardData" :key="index" :image="item.image" :title="item.title" :text="item.text">
-      </Card>
+<!--      <Card v-for="(item, index) in cardData" :key="index" :image="item.image" :title="item.title" :text="item.text">-->
+<!--      </Card>-->
     </div>
     <FAQs />
   </div>
